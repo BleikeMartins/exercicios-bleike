@@ -8,17 +8,12 @@
 // taxa do garçom: R$8,00
 // total a pagar: R$88,00
 
-let valorJantar = 80;
-let TaxaGarcom = 10;
-let total = 0;
+const  valorJantar  =  80 ;
+const  taxaGarcom  =  10 ;
+const  totalAPagar  =  valorJantar  +  ( ( taxaGarcom  /  100 )  *  valorJantar ) ;
 
-total = 80 + ((TaxaGarcom /100) * 80);
-
-  console.log((TaxaGarcom/100) * 80);
-
-  console.log(`valor do jantar R$ ${valorJantar},00`)
-  console.log(`Taxa Do Garçom R$ ${(TaxaGarcom / 100) * 80},00`)
-  console.log(`Total R$ ${total},00`)
-
+console . log ( `Valor do Jantar: R$ ${ valorJantar },00 ` )
+console . log ( `Taxa do Garçom: R$ ${ ( taxaGarcom  /  100 )  *  valorJantar },00` )
+console . log ( 'O Total Ficou: R$'  +  totalAPagar  +  ',00 Reais.' ) ;
 
 
